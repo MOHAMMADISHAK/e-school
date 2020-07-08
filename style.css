@@ -23,7 +23,7 @@ h2{
     text-align: center;
     color: #696969;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 h6 {
    
@@ -109,12 +109,16 @@ a:hover{
 }
 footer{
     background-color: #282531;
-    margin-bottom: none;
+  
 }
 .e-school-footer p,h5{
     color: white;
    
 }
-.row{
-    padding: 50px;
+.e-school-footer{
+    padding: 70px 100px 50px 100px;
+}
+small{
+   padding-left: 470px;
+    color: white;
 }
