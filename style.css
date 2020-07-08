@@ -15,6 +15,7 @@ body{
 li {
     margin: 15px;
 }
+
 h1{
     font-weight: 700;
 }
@@ -80,4 +81,40 @@ h6 {
 .card-footer{
     background-color: white;
     border-top: none;
+}
+.course-img{
+    width: .5 px;
+    height: .5 px;
+}
+
+/* testimonial */
+.testimonial img {
+    width: 120px;
+    height: 120px;
+}
+cite{
+    text-align: right;
+}
+
+/* footer */
+
+
+a{
+    color: white ;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: #282531;
+    margin-bottom: none;
+}
+.e-school-footer p,h5{
+    color: white;
+   
+}
+.row{
+    padding: 50px;
 }
