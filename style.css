@@ -15,6 +15,7 @@ body{
 li {
     margin: 15px;
 }
+
 h1{
     font-weight: 700;
 }
@@ -22,7 +23,7 @@ h2{
     text-align: center;
     color: #696969;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 h6 {
    
@@ -80,4 +81,44 @@ h6 {
 .card-footer{
     background-color: white;
     border-top: none;
+}
+.course-img{
+    width: .5 px;
+    height: .5 px;
+}
+
+/* testimonial */
+.testimonial img {
+    width: 120px;
+    height: 120px;
+}
+cite{
+    text-align: right;
+}
+
+/* footer */
+
+
+a{
+    color: white ;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer{
+    background-color: #282531;
+  
+}
+.e-school-footer p,h5{
+    color: white;
+   
+}
+.e-school-footer{
+    padding: 70px 100px 100px 100px;
+}
+small{
+   padding-left: 470px;
+    color: white;
 }
