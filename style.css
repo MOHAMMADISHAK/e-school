@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+.button-all{
+    background: #21B573;
+    border-radius: 33px;
+    color: #fff;
+    border: none;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+li {
+    margin: 15px;
+}
+h1{
+    font-weight: 700;
+}
+h2{
+    text-align: center;
+    color: #696969;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+h6 {
+   
+    color:  #FD511A ;
+}
+
+/* top-banner */
+
+.top-banner{
+    background-color: #F0FFF0;
+}
+.nav-logo{
+    width: 198.07px;
+    height: 59px;
+}
+.span-color{
+    color: #21B573 ;
+    font-weight: 700;
+}
+.carousel-control-prev-icon{
+    visibility: hidden;
+}
+.carousel-control-next-icon{
+    visibility: hidden;
+}
+
+/* criteria */
+
+.criteria img {
+    width: 66px;
+    height: 95px;
+    padding-top: 35px;
+}
+.criteria-card{
+    background-color: #F0FFF0;
+    border: none;
+    border-radius: 15px;
+}
+.criteria-card:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+/* course */
+.courses img{
+    width: 331px;
+    height: 234px;
+    padding: 20px;
+}
+.courses-card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
