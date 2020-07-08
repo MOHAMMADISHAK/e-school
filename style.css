@@ -32,6 +32,9 @@ h6 {
 
 /* top-banner */
 
+.fixed-top{
+    background-color: #F0FFF0;
+}
 .top-banner{
     background-color: #F0FFF0;
 }
@@ -66,6 +69,12 @@ h6 {
     background-color: white;
     box-shadow: 5px 5px 10px lightgrey;
 }
+.card-title{
+    color: black;
+}
+.card-text {
+    text-align: center;
+}
 
 /* course */
 .courses img{
@@ -82,9 +91,14 @@ h6 {
     background-color: white;
     border-top: none;
 }
-.course-img{
-    width: .5 px;
-    height: .5 px;
+.icon-image{
+    height: 20px;
+    width: 20px;
+    padding: none;
+    margin: none;
+}
+.course-text{
+  margin-left: 12px;
 }
 
 /* testimonial */
@@ -94,6 +108,56 @@ h6 {
 }
 cite{
     text-align: right;
+}
+
+
+/* team */
+.team img{
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    
+}
+.team-card{
+    border: none;
+    border-radius: 15px;
+}
+
+/* contact */
+
+#contact{
+    
+    background:#efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0;
+    border: none ;
+}
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #21B573;
+    font-weight: bold;
+}
+
+/* purchase */
+.purchase-title{
+    text-align: center;
+}
+.purchase-button{
+    margin-left: 70px;
 }
 
 /* footer */
@@ -121,4 +185,7 @@ footer{
 small{
    padding-left: 470px;
     color: white;
+}
+h5{
+    margin-left: 13px;
 }
